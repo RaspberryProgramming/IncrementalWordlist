@@ -6,44 +6,44 @@ Created to make it easy to generate a wordlist workload for a distibuted brutefo
 
 Clone the Repo
  
-"git clone https://github.com/RaspberryProgramming/IncrementalWordlist"
+`git clone https://github.com/RaspberryProgramming/IncrementalWordlist`
 
 CD into the Repo
 
-"cd IncrementalWordlist"
+`cd IncrementalWordlist`
 
 CD into the python folder
 
-"cd python3"
+`cd python3`
 
 Run iw.py
 
-"python3 iw.py"
+`python3 iw.py`
 
 # Example python code
 
 Convert number to hashcode
-"
+`
 import iw
 
 iw = IncrementalWordlist()
 
 iw.numToTextCode(number):
-"
+`
 
 Create Wordlist from 0 - 9
-"
+`
 import iw
 
 iw = IncrementalWordlist()
 
 for i in range(0,10):
     iw.numToTextCode(i):
-"
+`
 
 Use custom chars list
 
-"
+`
 import iw
 
 iw = IncrementalWordlist()
@@ -51,4 +51,4 @@ iw = IncrementalWordlist()
 chars = ["a", "b", "c", "d"]
 
 iw.numToTextCode(10, chars=chars):
-"
+`
