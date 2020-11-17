@@ -24,24 +24,24 @@ Run iw.py
 
 Convert number to hashcode
 
-
-`import iw`
-`iw.numToTextCode(number):`
-
+```
+import iw
+iw.numToTextCode(number)
+```
 
 Create Wordlist from 0 - 9
 
-
-`import iw`
-`for i in range(0,10):`
-`    iw.numToTextCode(i):`
-
+```
+import iw
+for i in range(0,10):
+    iw.numToTextCode(i)
+```
 Use custom chars list
 
+```
+import iw
 
-`import iw`
+chars = ["a", "b", "c", "d"]
 
-`chars = ["a", "b", "c", "d"]`
-
-`iw.numToTextCode(10, chars=chars)`
-
+iw.numToTextCode(10, chars=chars)
+```
